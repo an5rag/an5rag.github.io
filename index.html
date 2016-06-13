@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Choudhary</title>
 </head>
-<body>
 
+<!--Stylesheets-->
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/home.css">
+<link rel="stylesheet" href="./css/project.css">
+<link rel="stylesheet" href="./css/projects.css">
+
+
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+
+<!--Google Fonts-->
+
+<!-- Angular Scripts -->
+<!-- NOTE: removing the ".min." can help debugging in the console-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>-->
+
+<!--Materialize-->
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<!--Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<!--Font awesome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+<!--AnimatedHeader-->
+<script src="./ext-lib/AnimatedHeader/js/cbpAnimatedHeader.js"></script>
+<link href="./ext-lib/AnimatedHeader/css/component.css" rel="stylesheet">
+
+
+<!--Scripts-->
+<script src="js/app.js"></script>
+<!--<script src="js/services.js"></script>-->
+<!--<script src="js/script.js"></script>-->
+
+<!--Controllers-->
+<script src="js/controllers/home-controller.js"></script>
+<script src="js/controllers/overarching-controller.js"></script>
+<script src="js/controllers/project-controller.js"></script>
+<script src="js/controllers/projects-controller.js"></script>
+<script src="js/controllers/resume-controller.js"></script>
+
+
+<!--Typeit-->
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
+
+<!----------------------------------------------------------------------->
+<style>
+    img {
+        width: 100vw;
+    }
+</style>
+
+<body ng-app="portfolio" ng-controller="OverArchingController">
+
+    <div id="navigation-bar" class="cbp-af-header">
+        <div class="cbp-af-inner">
+            <h1>$ AC/
+            <span id="page-path"></span>
+        </h1>
+            <div class="navigation">
+                <a href="#/home" ng-click="highlightAndRemove('home')">/home</a>
+                <a href="#/projects" ng-click="highlightAndRemove('projects')">/projects</a>
+                <a href="#/resume" ng-click="highlightAndRemove('resume')">/resume</a>
+            </div>
+        </div>
+    </div>
+    <div style="height: 180px; margin:0; padding:0">
+        <!--This exists to push the contents below the navigation-->
+    </div>
+    <!--    The view -->
+    <div ng-view>
+
+
+
+    </div>
+    <p style = "margin-top:50px" class="center-align light">
+        © 2016 Copyright Anurag Choudhary
+    </p>
 </body>
+
 </html>
