@@ -1,5 +1,5 @@
 angular.module('portfolioControllers')
 
-.controller('ProjectController', ['$scope', function ($scope) {
+    .controller('ProjectController', ['$scope', function ($scope) {
 
-}]);
+    }]);
