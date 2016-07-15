@@ -1,6 +1,7 @@
-/**
- * Created by an5ra on 6/8/2016.
- */
-portfolioControllers.controller('ResumeController', ['$scope', function ($scope) {
+angular.module('portfolioControllers')
 
+.controller('ResumeController', ['$scope', '$rootScope', function ($scope, $rootScope) {
+    'use strict';
+    $rootScope.section = 'resume';
+    $rootScope.highlightAndRemove();
 }]);
