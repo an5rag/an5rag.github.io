@@ -1,6 +1,7 @@
-/**
- * Created by an5ra on 6/8/2016.
- */
-portfolioControllers.controller('ProjectsController', ['$scope', function ($scope) {
+angular.module('portfolioControllers')
 
-}]);
+    .controller('ProjectsController', ['$scope', '$rootScope', function ($scope, $rootScope) {
+        'use strict';
+        $rootScope.section = 'projects';
+        $rootScope.highlightAndRemove();
+    }]);

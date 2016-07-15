@@ -18,4 +18,4 @@ app.config(['$routeProvider', function ($routeProvider) {
     });
 }]);
 
-var portfolioControllers = angular.module('portfolioControllers', []);
+angular.module('portfolioControllers', []);

@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="./css/home.css">
 <link rel="stylesheet" href="./css/project.css">
 <link rel="stylesheet" href="./css/projects.css">
+<link rel="stylesheet" href="./css/resume.css">
+
 
 
 <!--JQuery-->
@@ -53,7 +55,7 @@
 
 <!--Controllers-->
 <script src="js/controllers/home-controller.js"></script>
-<script src="js/controllers/overarching-controller.js"></script>
+<script src="js/controllers/navigation-controller.js"></script>
 <script src="js/controllers/project-controller.js"></script>
 <script src="js/controllers/projects-controller.js"></script>
 <script src="js/controllers/resume-controller.js"></script>
@@ -69,23 +71,25 @@
     }
 </style>
 
-<body ng-app="portfolio" ng-controller="OverArchingController">
+<body ng-app="portfolio">
 
-    <div id="navigation-bar" class="cbp-af-header">
+    <div id="navigation-bar" class="cbp-af-header" ng-controller="NavigationController">
         <div class="cbp-af-inner">
             <h1>$ AC/
             <span id="page-path"></span>
         </h1>
             <div class="navigation">
-                <a href="#/home" ng-click="highlightAndRemove('home')">/home</a>
-                <a href="#/projects" ng-click="highlightAndRemove('projects')">/projects</a>
-                <a href="#/resume" ng-click="highlightAndRemove('resume')">/resume</a>
+                <a href="#/home">/home</a>
+                <a href="#/projects">/projects</a>
+                <a href="#/resume">/resume</a>
             </div>
         </div>
     </div>
+    
     <div style="height: 180px; margin:0; padding:0">
         <!--This exists to push the contents below the navigation-->
     </div>
+    
     <!--    The view -->
     <div ng-view>
 
