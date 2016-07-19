@@ -10,13 +10,15 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 2.2em; }
-  .content-wrapper .intro .sectionHeading {
+.content-wrapper .home-section {
+  padding: 5% !important; }
+  .content-wrapper .home-section .sectionHeading {
     line-height: 30px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 1.8em; }
 .content-wrapper .social-icons {
-  padding: 6% !important; }
+  padding: 4% !important; }
   .content-wrapper .social-icons a {
     font-size: 1.3em;
     padding: 7%;

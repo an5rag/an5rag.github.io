@@ -18,6 +18,9 @@ $breakpoint-large: 993px;
       font-weight: 400;
       font-size: 2.2em;
     }
+  }
+  .home-section {
+    padding: 5% !important;
     .sectionHeading {
       line-height: 30px;
       font-family: 'Source Sans Pro', sans-serif;
@@ -26,7 +29,7 @@ $breakpoint-large: 993px;
     }
   }
   .social-icons {
-    padding: 6% !important;
+    padding: 4% !important;
     a {
       font-size: 1.3em;
       padding: 7%;
