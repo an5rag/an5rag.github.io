@@ -1,16 +1,78 @@
+$breakpoint-small: 600px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 993px;
+
 .content-wrapper {
-    .social-icons {
-        margin-top: 30px;
-        a {
-            font-size: 1.3em;
-            padding: 7%;
-            color: white;
-            -webkit-transition: all 0.3s;
-            -moz-transition: all 0.3s;
-            transition: all 0.3s;
-            :hover {
-                color: cadetblue;
-            }
-        }
+  .row {
+    //margin:0;
+    //padding: 0;
+  }
+  .social-icons {
+    margin-top: 30px;
+    a {
+      font-size: 1.3em;
+      padding: 7%;
+      color: white;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      &:hover {
+        color: cadetblue;
+      }
     }
+  }
+}
+
+.img-container {
+  img {
+    width: 96%;
+    margin-left: 1%;
+    margin-right: 1%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 1.0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    &:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+      opacity: 0.3;
+    }
+  }
+}
+
+figure {
+  position: relative;
+  width: 50%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+  figcaption {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    //text-transform: uppercase;
+    font-weight: 200;
+    position: absolute;
+
+    top: 2%;
+    right: 7%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    @media only screen and (min-width: $breakpoint-medium) {
+      font-size: 1.5em;
+    }
+  }
+
+  &:hover {
+    figcaption {
+      right: 5%;
+      opacity: 1;
+    }
+  }
 }

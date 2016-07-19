@@ -4,4 +4,5 @@ angular.module('portfolioControllers')
         'use strict';
         $rootScope.section = 'resume';
         $rootScope.highlightAndRemove();
+        $('.materialboxed').materialbox();
     }]);

@@ -1,12 +1,51 @@
-body{
-    background-color:#f6f6f6
+$breakpoint-small: 600px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 993px;
+
+
+@mixin title-font() {
+  font-family: 'Source Code Pro', monospace;
 }
 
-.row, .col, body, html {
+@mixin navigation-font() {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin heading($color) {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+}
+
+@mixin sub-heading-font($color) {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin text($color) {
+
+}
+
+.title {
+  @include title-font();
+}
+
+//.navigation {
+//  @include navigation-font();
+//}
+.selected-navigation {
+  color: black !important;
+}
+
+body {
+  background-color: #f6f6f6
+}
+
+.col, body, html {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .content-wrapper {
+  @media only screen and (min-width: $breakpoint-small) {
     margin: 20px;
+  }
 }
