@@ -9,7 +9,7 @@
                     ANURAG CHOUDHARY
                 </div>
                 <div class="introHeading">
-                   ~
+                    ~
                 </div>
 
                 <div class="introText">
@@ -20,27 +20,30 @@
             </div>
 
         </div>
-        <div  id="pictures" class="row img-container section scrollspy">
+        <div id="pictures" class="row img-container section scrollspy">
             <figure ng-repeat="image in images">
-                <img ng-src="./media/compressed/{{image.file}}"  class="responsive-img">
+                <img ng-src="./media/compressed/{{image.file}}" class="responsive-img">
                 <figcaption>{{image.description}}</figcaption>
             </figure>
         </div>
-
-        <div id="links" class="row white-text thin center-align social-icons section scrollspy">
-            <a href="https://www.linkedin.com/in/an5rag"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/an5rag"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/an5rag"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/c/anuragchoudhary"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-
+        <div id="reach" class="section scrollspy z-depth-1">
+            <div class="row white-text thin center-align social-icons">
+                <a href="https://www.linkedin.com/in/an5rag"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/an5rag"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/an5rag"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/c/anuragchoudhary"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </div>
+            <div id="map" class="row"  style="height:300px;">
+            </div>
         </div>
+
     </div>
 
     <div class="col hide-on-med-and-down l2 sideScrollSpy">
         <ul class="section table-of-contents">
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#pictures">In Pictures</a></li>
-            <li><a href="#links">Reach me</a></li>
+            <li><a href="#reach">Reach me</a></li>
         </ul>
     </div>
 </div>

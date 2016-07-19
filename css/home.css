@@ -1,4 +1,4 @@
-.content-wrapper .row {
+.content-wrapper .row, .content-wrapper .section {
   margin: 0;
   padding: 0; }
 .content-wrapper .intro {
@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 2.2em; }
 .content-wrapper .social-icons {
-  padding: 10% !important; }
+  padding: 6% !important; }
   .content-wrapper .social-icons a {
     font-size: 1.3em;
     padding: 7%;
