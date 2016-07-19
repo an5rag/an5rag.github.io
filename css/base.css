@@ -1,11 +1,18 @@
+.title {
+  font-family: 'Source Code Pro', monospace; }
+
+.selected-navigation {
+  color: black !important; }
+
 body {
   background-color: #f6f6f6; }
 
-.row, .col, body, html {
+.col, body, html {
   margin: 0;
-  padding: 0; }
+  padding: 0 !important; }
 
-.content-wrapper {
-  margin: 20px; }
+@media only screen and (min-width: 600px) {
+  .content-wrapper {
+    margin: 20px; } }
 
 /*# sourceMappingURL=base.css.map */

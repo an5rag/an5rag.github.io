@@ -2,6 +2,7 @@ angular.module('portfolioControllers')
 
     .controller('NavigationController', ['$scope', '$rootScope', function ($scope, $rootScope) {
         'use strict';
+        $rootScope.something = true;
         $rootScope.highlightAndRemove = function () {
             $('#page-path').css('background-color', 'lightgrey');
             setTimeout(function () {

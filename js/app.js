@@ -18,4 +18,4 @@ app.config(['$routeProvider', function ($routeProvider) {
     });
 }]);
 
-angular.module('portfolioControllers', []);
+angular.module('portfolioControllers', ["wu.masonry"]);

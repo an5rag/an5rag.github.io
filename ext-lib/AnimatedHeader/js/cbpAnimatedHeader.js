@@ -13,13 +13,13 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.cbp-af-header' ),
 		didScroll = false,
-		changeHeaderOn = 200;
+		changeHeaderOn = 100;
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
-				setTimeout( scrollPage, 250 );
+				setTimeout( scrollPage, 0 );
 			}
 		}, false );
 	}
@@ -27,11 +27,9 @@ var cbpAnimatedHeader = (function() {
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			//classie.add( header, 'cbp-af-header-shrink' );
 			$('#navigation-bar').addClass('cbp-af-header-shrink');
 		}
 		else {
-			//classie.remove( header, 'cbp-af-header-shrink' );
 			$('#navigation-bar').removeClass('cbp-af-header-shrink');
 		}
 		didScroll = false;
