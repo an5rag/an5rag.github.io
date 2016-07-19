@@ -43,10 +43,7 @@
   .img-container img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-    opacity: 0.5;
-    -moz-transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    transform: scale(1.01); }
+    opacity: 0.5; }
 
 figure {
   overflow: hidden;
@@ -70,7 +67,7 @@ figure {
     -o-transition: all 0.3s ease; }
     @media only screen and (min-width: 992px) {
       figure figcaption {
-        font-size: 1.5em; } }
+        font-size: 1.3em; } }
   figure:hover figcaption {
     right: 5%;
     opacity: 1; }
