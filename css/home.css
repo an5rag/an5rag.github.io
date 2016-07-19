@@ -1,3 +1,5 @@
+.content-wrapper a {
+  color: white; }
 .content-wrapper .row, .content-wrapper .section {
   margin: 0;
   padding: 0; }
@@ -8,6 +10,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 2.2em; }
+  .content-wrapper .intro .sectionHeading {
+    line-height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.8em; }
 .content-wrapper .social-icons {
   padding: 6% !important; }
   .content-wrapper .social-icons a {
@@ -18,13 +25,14 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     .content-wrapper .social-icons a:hover {
-      color: cadetblue; }
+      color: indianred; }
 
 .img-container img {
-  width: 96%;
-  margin-left: 1%;
-  margin-right: 1%;
+  width: 100%;
   -webkit-filter: grayscale(1);
+  padding-left: 0.8%;
+  padding-right: 0.8%;
+  margin-bottom: 0;
   filter: grayscale(1);
   opacity: 1.0;
   -webkit-transition: all 0.4s;
@@ -33,14 +41,18 @@
   .img-container img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-    opacity: 0.3; }
+    opacity: 0.5;
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01); }
 
 figure {
+  overflow: hidden;
   position: relative;
   width: 50%;
   float: left;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center; }
   figure figcaption {
     font-family: 'Source Sans Pro', sans-serif;
@@ -65,6 +77,8 @@ figure {
   position: fixed;
   top: 45%;
   right: 5% !important; }
+  .sideScrollSpy a:hover {
+    border-left: 1px solid darkgray; }
   .sideScrollSpy .active {
     border-left: 2px solid black !important; }
 

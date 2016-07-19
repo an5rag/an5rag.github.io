@@ -38,10 +38,12 @@ angular.module('portfolioControllers')
                 file: 'classic-milds-2013.jpg',
                 description: 'Classic Milds 2013'
             }
-        ]
+        ];
 
         $(document).ready(function () {
+            animateHeadline($('.cd-headline'));
             $('.scrollspy').scrollSpy();
+
             // Basic options for a simple Google Map
             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
             var mapOptions = {
@@ -96,7 +98,7 @@ angular.module('portfolioControllers')
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(41.8735560,-87.6308800),
                 map: map,
-                title: 'Snazzy!'
+                title: "Anurag's current location"
             });
         });
     }]);
