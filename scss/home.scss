@@ -4,11 +4,20 @@ $breakpoint-large: 993px;
 
 .content-wrapper {
   .row {
-    //margin:0;
-    //padding: 0;
+    margin:0;
+    padding: 0;
+  }
+  .intro {
+    padding: 10% !important;
+    .introHeading{
+      line-height: 50px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 2.2em;
+    }
   }
   .social-icons {
-    margin-top: 30px;
+    padding: 10% !important;
     a {
       font-size: 1.3em;
       padding: 7%;
@@ -74,5 +83,14 @@ figure {
       right: 5%;
       opacity: 1;
     }
+  }
+}
+
+.sideScrollSpy {
+ position: fixed;
+  top:45%;
+  right:5% !important;
+  .active {
+    border-left: 2px solid black !important;
   }
 }

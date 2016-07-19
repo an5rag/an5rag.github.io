@@ -4,26 +4,43 @@
             <div class="col s5">
                 <!--<img src="./media/home-page-picture.jpeg" class="responsive-img">-->
             </div>
-            <div class="col s12">
-                <p>
-                    Hello, this website is still under construction. It should be complete very soon.
-                </p>
+            <div id="introduction" class="col s12 section scrollspy intro">
+                <div class="introHeading">
+                    ANURAG CHOUDHARY
+                </div>
+                <div class="introHeading">
+                   ~
+                </div>
+
+                <div class="introText">
+                    Hi. I'm an undergraduate at UIUC majoring in Computer Science.
+                    A full-stack web developer obsessed with minimal design, I love building web apps which focus on
+                    visualizations and enjoyable user interactions.
+                </div>
             </div>
 
         </div>
-        <div class="row img-container">
+        <div  id="pictures" class="row img-container section scrollspy">
             <figure ng-repeat="image in images">
                 <img ng-src="./media/compressed/{{image.file}}"  class="responsive-img">
                 <figcaption>{{image.description}}</figcaption>
             </figure>
         </div>
 
-        <div class="row white-text thin center-align social-icons">
+        <div id="links" class="row white-text thin center-align social-icons section scrollspy">
             <a href="https://www.linkedin.com/in/an5rag"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             <a href="https://github.com/an5rag"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/an5rag"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://www.youtube.com/c/anuragchoudhary"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 
         </div>
+    </div>
+
+    <div class="col hide-on-med-and-down l2 sideScrollSpy">
+        <ul class="section table-of-contents">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#pictures">In Pictures</a></li>
+            <li><a href="#links">Reach me</a></li>
+        </ul>
     </div>
 </div>

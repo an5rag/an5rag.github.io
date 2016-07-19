@@ -1,5 +1,15 @@
+.content-wrapper .row {
+  margin: 0;
+  padding: 0; }
+.content-wrapper .intro {
+  padding: 10% !important; }
+  .content-wrapper .intro .introHeading {
+    line-height: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 2.2em; }
 .content-wrapper .social-icons {
-  margin-top: 30px; }
+  padding: 10% !important; }
   .content-wrapper .social-icons a {
     font-size: 1.3em;
     padding: 7%;
@@ -50,5 +60,12 @@ figure {
   figure:hover figcaption {
     right: 5%;
     opacity: 1; }
+
+.sideScrollSpy {
+  position: fixed;
+  top: 45%;
+  right: 5% !important; }
+  .sideScrollSpy .active {
+    border-left: 2px solid black !important; }
 
 /*# sourceMappingURL=home.css.map */

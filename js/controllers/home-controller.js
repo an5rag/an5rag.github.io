@@ -39,4 +39,8 @@ angular.module('portfolioControllers')
                 description: 'Classic Milds 2013'
             }
         ]
+
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
     }]);
