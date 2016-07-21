@@ -1,6 +1,13 @@
-.resume-image {
-  width: 100%;
-  height: auto;
-  margin-top: 12px; }
+.resume .resume-image {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%; }
+.resume a {
+  color: white;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  .resume a:hover {
+    color: indianred !important; }
 
 /*# sourceMappingURL=resume.css.map */
