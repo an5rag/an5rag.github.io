@@ -1,4 +1,4 @@
-var app = angular.module('portfolio', ['ngRoute', 'ngAnimate', 'portfolioControllers']);
+var app = angular.module('portfolio', ['ngRoute', 'portfolioControllers']);
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/home', {
         templateUrl: './partials/home.html',
