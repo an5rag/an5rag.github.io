@@ -28,7 +28,7 @@
                     <p class="cd-headline loading-bar">
                     <span>Apart from all of this, I</span>
                     <span class="cd-words-wrapper">
-                        <b class="is-visible">make and listen to a lot of music.</b>
+                        <b class="is-visible">compose and listen to a lot of music.</b>
                         <b>am part of a fusion American-Indian band.</b>
                         <b>am part of a theater group in college.</b>
                         <b>am an avid reader of fiction novels.</b>
@@ -42,7 +42,7 @@
 
         </div>
         <div id="pictures" class="row img-container section scrollspy">
-            <figure ng-repeat="image in images">
+            <figure ng-repeat="image in images" style="margin-top:-2px">
                 <img ng-src="./media/tinified/{{image.file}}" class="responsive-img" alt="{{image.description}}">
                 <figcaption>{{image.description}}</figcaption>
             </figure>
@@ -51,21 +51,26 @@
             <div class="row">
                 <div class="col s12 home-section">
                     <div class="sectionHeading">
-                        Reach me.
+                        Contact me.
                     </div>
 
                     <div class="sectionText">
                         <p>
-                            The best way to reach me is to email me at<br>
-                            <span style="font-weight: 400">achdhry3 (at) illinois (dot) edu</span>
+                            The best way to reach me is by email.
                         </p>
                         <p>
-                            Alongwith my Github, my internet presence is linked below the map of my current residence.
+                            <span style="color:darkgray">(217) 979-5576</span><br>
+                            <span>achdhry3@illinois.edu</span>
+                        </p>
+                        <p>
+                            Alongwith my Github, my internet presence is linked below the map.<br>
+                            In case you're wondering, no, this isn't a live GPS tracker.
                         </p>
                     </div>
                 </div>
             </div>
-            <div id="map" class="row" style="height:350px;width:99.9%">
+            <div class="row" style="overflow:hidden">
+                <div id="map" style="height:350px;width:100%;"></div>
             </div>
             <div class="row white-text thin center-align social-icons">
                 <a href="https://www.linkedin.com/in/an5rag"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -81,7 +86,7 @@
         <ul class="section table-of-contents">
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#pictures">Pictures</a></li>
-            <li><a href="#reach">Reach me</a></li>
+            <li><a href="#reach">Contact me</a></li>
         </ul>
     </div>
 </div>

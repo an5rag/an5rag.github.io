@@ -9,7 +9,8 @@
     line-height: 50px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 2.2em; }
+    font-size: 2.2em;
+    letter-spacing: 1px; }
 .content-wrapper .sectionText {
   font-weight: 200;
   font-family: 'Source Sans Pro', sans-serif; }
@@ -26,9 +27,9 @@
     font-size: 1.3em;
     padding: 7%;
     color: white;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s; }
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
     .content-wrapper .social-icons a:hover {
       color: indianred; }
 
