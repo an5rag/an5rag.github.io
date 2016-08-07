@@ -33,11 +33,16 @@
     .content-wrapper .social-icons a:hover {
       color: indianred; }
 
+.img-container .left-img {
+  padding-left: 4px;
+  padding-right: 2px; }
+.img-container .right-img {
+  padding-left: 2px;
+  padding-right: 4px; }
 .img-container img {
   width: 100%;
+  padding-bottom: 4px;
   -webkit-filter: grayscale(1);
-  padding-left: 0.8%;
-  padding-right: 0.8%;
   margin-bottom: 0;
   filter: grayscale(1);
   opacity: 1.0;
@@ -52,17 +57,18 @@
 figure {
   overflow: hidden;
   position: relative;
-  width: 50%;
   float: left;
+  width: 50%;
   margin: 0;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  line-height: 0; }
   figure figcaption {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-weight: 200;
     position: absolute;
-    top: 2%;
+    top: 7%;
     right: 7%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -79,7 +85,7 @@ figure {
 .sideScrollSpy {
   position: fixed;
   top: 350px;
-  right: 5% !important; }
+  right: -1% !important; }
   .sideScrollSpy a:hover {
     border-left: 1px solid darkgray; }
   .sideScrollSpy .active {

@@ -7,6 +7,10 @@ angular.module('portfolioControllers')
 
         $scope.images = [
             {
+                file: 'nextcapital.jpg',
+                description: 'NextCapital Summer 2016'
+            },
+            {
                 file: 'senior-project.jpg',
                 description: 'Senior Project 2015-2016'
             },
@@ -21,6 +25,10 @@ angular.module('portfolioControllers')
             {
                 file: 'hackathon.jpg',
                 description: 'ADSA Data Summit 2015'
+            },
+            {
+                file: 'hackathon-2.jpg',
+                description: 'ADSA Data Hackathon 2015'
             },
             {
                 file: 'mithya-2015.jpg',

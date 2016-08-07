@@ -26,24 +26,25 @@
                     <p class="cd-intro">
 
                     <p class="cd-headline loading-bar">
-                    <span>Apart from all of this, I</span>
+                        <span>Apart from all of this, I</span>
                     <span class="cd-words-wrapper">
                         <b class="is-visible">compose and listen to a lot of music.</b>
                         <b>am part of a fusion American-Indian band.</b>
                         <b>am part of a theater group in college.</b>
-                        <b>am an avid reader of fiction novels.</b>
+                        <b>am an avid reader of fiction/thriller novels.</b>
                         <b>am a tech geek, up to date with the latest news.</b>
                         <b>blog occasionally about a variety of things.</b>
-                        <b>love to teach and mentor students.</b>
-                        <b>am <i> usually </i>a terrible dancer.</b>
+                        <b>love to teach, mentor, help, guide and inspire.</b>
+                        <b>am usually a terrible dancer.<i> Usually. </i></b>
                     </span>
                 </div>
             </div>
 
         </div>
         <div id="pictures" class="row img-container section scrollspy">
-            <figure ng-repeat="image in images" style="margin-top:-2px">
-                <img ng-src="./media/tinified/{{image.file}}" class="responsive-img" alt="{{image.description}}">
+            <figure ng-repeat="image in images">
+                <img ng-src="./media/tinified/{{image.file}}" ng-class-odd="'left-img'" ng-class-even="'right-img'"
+                     class="responsive-img" alt="{{image.description}}">
                 <figcaption>{{image.description}}</figcaption>
             </figure>
         </div>
@@ -55,15 +56,15 @@
                     </div>
 
                     <div class="sectionText">
-                        <p>
-                            The best way to reach me is by email.
-                        </p>
+                        <!--<p>-->
+                            <!--The best way to reach me is by email.-->
+                        <!--</p>-->
                         <p>
                             <span style="color:darkgray">(217) 979-5576</span><br>
                             <span>achdhry3@illinois.edu</span>
                         </p>
                         <p>
-                            Alongwith my Github, my internet presence is linked below the map.<br>
+                            Alongwith my Github, my internet presence is linked below.<br>
                             In case you're wondering, no, this isn't a live GPS tracker.
                         </p>
                     </div>

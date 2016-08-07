@@ -53,11 +53,20 @@ $breakpoint-large: 993px;
 
 .img-container {
 
+  .left-img {
+    padding-left: 4px;
+    padding-right: 2px;
+  }
+
+  .right-img {
+    padding-left: 2px;
+    padding-right: 4px;
+  }
+
   img {
     width: 100%;
+    padding-bottom: 4px;
     -webkit-filter: grayscale(1);
-    padding-left: 0.8%;
-    padding-right: 0.8%;
     margin-bottom: 0;
     filter: grayscale(1);
     opacity: 1.0;
@@ -78,13 +87,12 @@ $breakpoint-large: 993px;
 figure {
   overflow: hidden;
   position: relative;
-
-  width: 50%;
   float: left;
+  width: 50%;
   margin: 0;
   padding: 0;
   text-align: center;
-
+  line-height:0;
   figcaption {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
@@ -92,7 +100,7 @@ figure {
     font-weight: 200;
     position: absolute;
 
-    top: 2%;
+    top: 7%;
     right: 7%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -115,7 +123,7 @@ figure {
 .sideScrollSpy {
   position: fixed;
   top: 350px;
-  right: 5% !important;
+  right: -1% !important;
   a:hover {
     border-left: 1px solid darkgray;
   }

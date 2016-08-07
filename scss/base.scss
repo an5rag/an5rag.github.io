@@ -2,7 +2,6 @@ $breakpoint-small: 600px;
 $breakpoint-medium: 992px;
 $breakpoint-large: 993px;
 
-
 @mixin title-font() {
   font-family: 'Source Code Pro', monospace;
 }
@@ -47,5 +46,15 @@ body {
 .content-wrapper {
   @media only screen and (min-width: $breakpoint-small) {
     margin: 20px;
+  }
+}
+
+.cbp-af-header.gray-navigation-bar {
+  background-color: rgba(5, 5, 5, 0.9);
+  h1 {
+    color: white;
+  }
+  .selected-navigation {
+    color: white !important;
   }
 }

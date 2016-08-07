@@ -15,4 +15,11 @@ body {
   .content-wrapper {
     margin: 20px; } }
 
+.cbp-af-header.gray-navigation-bar {
+  background-color: rgba(5, 5, 5, 0.9); }
+  .cbp-af-header.gray-navigation-bar h1 {
+    color: white; }
+  .cbp-af-header.gray-navigation-bar .selected-navigation {
+    color: white !important; }
+
 /*# sourceMappingURL=base.css.map */
