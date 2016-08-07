@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbec2190-01dd-4377-aa17-9c985f3e9a71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/93811a611b0e3774d92d9f04278a5e3e7e604fc7/base.scssc" afterPath="$PROJECT_DIR$/.sass-cache/93811a611b0e3774d92d9f04278a5e3e7e604fc7/base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/93811a611b0e3774d92d9f04278a5e3e7e604fc7/home.scssc" afterPath="$PROJECT_DIR$/.sass-cache/93811a611b0e3774d92d9f04278a5e3e7e604fc7/home.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/tinified/mithya-2016.jpg" afterPath="$PROJECT_DIR$/media/tinified/mithya-2016.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css.map" afterPath="$PROJECT_DIR$/css/base.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home.css.map" afterPath="$PROJECT_DIR$/css/home.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext-lib/AnimatedHeader/css/component.css" afterPath="$PROJECT_DIR$/ext-lib/AnimatedHeader/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext-lib/AnimatedHeader/js/cbpAnimatedHeader.js" afterPath="$PROJECT_DIR$/ext-lib/AnimatedHeader/js/cbpAnimatedHeader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/home-controller.js" afterPath="$PROJECT_DIR$/js/controllers/home-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/.picasa.ini" afterPath="$PROJECT_DIR$/media/.picasa.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/.picasaoriginals/.picasa.ini" afterPath="$PROJECT_DIR$/media/.picasaoriginals/.picasa.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/base.scss" afterPath="$PROJECT_DIR$/scss/base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/home.scss" afterPath="$PROJECT_DIR$/scss/home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/tinified/nextcapital.jpg" afterPath="$PROJECT_DIR$/media/tinified/nextcapital.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/tinified/.picasa.ini" afterPath="$PROJECT_DIR$/media/tinified/.picasa.ini" />
     </list>
     <ignored path="an5rag.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.406779">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.3982808">
+              <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="110" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -115,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14825416">
+            <state vertical-scroll-proportion="-9.596491">
               <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -157,9 +142,9 @@
         <option value="$PROJECT_DIR$/ext-lib/AnimatedHeader/css/component.css" />
         <option value="$PROJECT_DIR$/ext-lib/AnimatedHeader/js/cbpAnimatedHeader.js" />
         <option value="$PROJECT_DIR$/scss/base.scss" />
-        <option value="$PROJECT_DIR$/partials/home.html" />
         <option value="$PROJECT_DIR$/scss/home.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partials/home.html" />
       </list>
     </option>
   </component>
@@ -781,18 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.406779">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext-lib/animated-headline/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="10.074915">
@@ -811,10 +784,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14825416">
+        <state vertical-scroll-proportion="-9.596491">
           <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3982808">
+          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
