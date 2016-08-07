@@ -15,4 +15,12 @@ angular.module('portfolioControllers')
                 });
             }, 500);
         };
+        $rootScope.changeColors = function (backgroundColor, darkenNavBar) {
+            if(darkenNavBar) {
+                $('#navigation-bar').addClass('gray-navigation-bar');
+            } else {
+                $('#navigation-bar').removeClass('gray-navigation-bar');
+            }
+            $('body').css('background-color', backgroundColor);
+        }
     }]);

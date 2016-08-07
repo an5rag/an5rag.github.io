@@ -4,4 +4,5 @@ angular.module('portfolioControllers')
         'use strict';
         $rootScope.section = 'projects';
         $rootScope.highlightAndRemove();
+        $rootScope.changeColors('black', true);
     }]);

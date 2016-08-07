@@ -4,6 +4,7 @@ angular.module('portfolioControllers')
         'use strict';
         $rootScope.section = 'home';
         $rootScope.highlightAndRemove();
+        $rootScope.changeColors('white', false);
 
         $scope.images = [
             {
