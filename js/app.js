@@ -1,5 +1,5 @@
 var app = angular.module('portfolio', ['ngRoute', 'portfolioControllers']);
-app.config(['$routeProvider', function ($routeProvider) {
+app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider.when('/home', {
         templateUrl: './partials/home.html',
         controller: 'HomeController'
@@ -16,6 +16,11 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: './partials/home.html',
         controller: 'HomeController'
     });
+    
+//    $locationProvider.html5Mode({
+//         enabled: true,
+//         requireBase: false
+//    });
 }]);
 
 angular.module('portfolioControllers', []);

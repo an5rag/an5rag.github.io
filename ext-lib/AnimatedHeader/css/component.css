@@ -123,6 +123,6 @@
 @media screen and (max-width: 24em) {
 	.cbp-af-header .navigation a,
 	.cbp-af-header.cbp-af-header-shrink .navigation a {
-		line-height: 1;
+		line-height: 45px;
 	}
 }

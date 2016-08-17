@@ -17,9 +17,9 @@ angular.module('portfolioControllers')
         };
         $rootScope.changeColors = function (backgroundColor, darkenNavBar) {
             if(darkenNavBar) {
-                $('#navigation-bar').addClass('gray-navigation-bar');
+                $('#navigation-bar').addClass('black-navigation-bar');
             } else {
-                $('#navigation-bar').removeClass('gray-navigation-bar');
+                $('#navigation-bar').removeClass('black-navigation-bar');
             }
             $('body').css('background-color', backgroundColor);
         }

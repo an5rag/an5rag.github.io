@@ -81,7 +81,7 @@ angular.module('portfolioControllers')
                     "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]
                 }, {
                     "featureType": "transit",
-                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                    "stylers": [{"saturation": -100}, {"visibility": "off"}]
                 }, {
                     "featureType": "administrative.province",
                     "stylers": [{"visibility": "off"}]
