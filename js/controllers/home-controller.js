@@ -60,7 +60,7 @@ angular.module('portfolioControllers')
                 zoom: 14,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(41.8735560,-87.6308800), // New York
+                center: new google.maps.LatLng(40.111159,-88.231149), // My local address
 
                 // How you would like to style the map.
                 // This is where you would paste any style found on Snazzy Maps.
@@ -105,7 +105,7 @@ angular.module('portfolioControllers')
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(41.8735560,-87.6308800),
+                position: new google.maps.LatLng(40.111159,-88.231149),
                 map: map,
                 title: "Anurag's current location"
             });
