@@ -16,6 +16,11 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         templateUrl: './partials/home.html',
         controller: 'HomeController'
     });
+
+    $locationProvider.html5Mode({
+	  	enabled: true,
+	  	requireBase: false
+	});
     
 //    $locationProvider.html5Mode({
 //         enabled: true,
