@@ -60,7 +60,7 @@ angular.module('portfolioControllers')
                 zoom: 14,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.111159,-88.231149), // My local address
+                center: new google.maps.LatLng(47.634766,-122.136856), // My local address
 
                 // How you would like to style the map.
                 // This is where you would paste any style found on Snazzy Maps.
