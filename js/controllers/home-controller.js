@@ -105,7 +105,7 @@ angular.module('portfolioControllers')
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(47.634766,-122.136856),
+                position: new google.maps.LatLng(47.619078,-122.317039),
                 map: map,
                 title: "Anurag's current location"
             });
