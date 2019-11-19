@@ -103,8 +103,10 @@
 
 <div id="navigation-bar" class="cbp-af-header cbp-af-header-shrink z-depth-1" ng-controller="NavigationController">
     <div class="cbp-af-inner">
-        <h1 class="title">$ AC/<span id="page-path"></span>
-        </h1>
+        <a href="#/home">
+            <h1 class="title">$ AC/<span id="page-path"></span>
+            </h1>
+        </a>
         <div class="navigation">
             <a ng-class="{'selected-navigation': section == 'home'}" href="#/home">/home</a>
             <a ng-class="{'selected-navigation': section == 'projects'}" href="#/projects">/projects</a>
